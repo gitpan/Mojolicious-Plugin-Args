@@ -1,6 +1,6 @@
 package Mojolicious::Plugin::Args;
 use Mojo::Base 'Mojolicious::Plugin';
-use Mojo::JSON qw/decode_json/;
+use Mojo::JSON 'decode_json';
 
 sub register {
     my ( $self, $app, $opts ) = @_;
@@ -43,7 +43,7 @@ Mojolicious::Plugin::Args - gives you back the request parameters as a simple %a
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

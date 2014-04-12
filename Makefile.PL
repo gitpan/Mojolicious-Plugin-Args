@@ -22,7 +22,8 @@ my %WriteMakefileArgs = (
   "NAME" => "Mojolicious::Plugin::Args",
   "PREREQ_PM" => {
     "Mojo::Base" => 0,
-    "Mojo::JSON" => 0
+    "Mojo::JSON" => 0,
+    "Mojolicious" => 0
   },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
@@ -37,7 +38,7 @@ my %WriteMakefileArgs = (
     "version" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -54,6 +55,7 @@ my %FallbackPrereqs = (
   "List::Util" => 0,
   "Mojo::Base" => 0,
   "Mojo::JSON" => 0,
+  "Mojolicious" => 0,
   "Test::More" => 0,
   "strict" => 0,
   "version" => 0,

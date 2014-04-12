@@ -52,6 +52,7 @@ my $static_prereqs = do { my $x = {
                       'requires' => {
                                       'Mojo::Base' => '0',
                                       'Mojo::JSON' => '0',
+                                      'Mojolicious' => '0',
                                       'perl' => '5.010'
                                     }
                     },
