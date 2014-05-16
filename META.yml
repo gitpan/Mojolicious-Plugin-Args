@@ -32,7 +32,7 @@ no_index:
 provides:
   Mojolicious::Plugin::Args:
     file: lib/Mojolicious/Plugin/Args.pm
-    version: '0.04'
+    version: '0.05'
 requires:
   Mojo::Base: '0'
   Mojo::JSON: '0'
@@ -42,7 +42,7 @@ resources:
   bugtracker: https://github.com/sharabash/mojolicious-plugin-args/issues
   homepage: https://metacpan.org/release/Mojolicious-Plugin-Args
   repository: git://github.com/sharabash/mojolicious-plugin-args.git
-version: '0.04'
+version: '0.05'
 x_authority: cpan:AMIRITE
 x_contributors:
   - 'Nour Sharabash <nour.sharabash@gmail.com>'
